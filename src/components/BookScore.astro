@@ -1,0 +1,20 @@
+---
+// import { SCORE_API_ENDPOINT } from "astro:env/client";
+import { SCORE_API_ENDPOINT } from "astro:env/server";
+// ? Recueperar el elemento solo funciona en cliente
+// const scoreElement = document.querySelector('#score')
+// fetch(`${SCORE_API_ENDPOINT}`)
+//     .then(res => res.text())
+//     .then(scoreValue => {
+//     if( scoreElement ) {
+//         scoreElement.innerHTML = `✨ Puntuación: ${scoreValue.trim()}/5`
+//     }
+//     })
+
+const resp = await fetch(SCORE_API_ENDPOINT);
+const scoreValue = await resp.text();
+---
+
+<span slot="fallback" class="text-xs opacity-70" id="score">
+    ✨ Puntuación: {scoreValue.trim()}/5
+</span>

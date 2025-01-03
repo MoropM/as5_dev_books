@@ -1,3 +1,11 @@
+# Proyecto para aprender de Astro 5
+
+Proyecto realizado de acuerdo al tutorial de [Midudev](https://www.youtube.com/watch?v=WHqZAXHZN_w&t=105s) utilizando la versión 5 de ASTRO.
+
+<!-- npx astro sync  -->
+
+
+
 # Astro Starter Kit: Basics
 
 ```sh
