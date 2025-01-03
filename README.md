@@ -2,7 +2,15 @@
 
 Proyecto realizado de acuerdo al tutorial de [Midudev](https://www.youtube.com/watch?v=WHqZAXHZN_w&t=105s) utilizando la versión 5 de ASTRO.
 
-<!-- npx astro sync  -->
+
+<!-- Volvemos a sincronizar los archivos, dependenciar, etc.
+npx astro sync 
+
+Inhabilitar la barra de herramientas de desarrollo
+npx astro preferences disable devToolbar
+
+Adaptador vercel
+https://docs.astro.build/en/guides/integrations-guide/vercel/  -->
 
 
 
